@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>モンティホール問題</title>
+    <link rel="stylesheet" type="text/css" href="css/monty.css">
+    <script type="text/javascript" src="js/monty.js"></script>
+</head>
+
+<body>
+    
+    <div style="display:none">
+        <img id="close" class="door" src="img/close.png"></img>
+        <img id="lose"  class="door" src="img/open_lose.png"></img>
+        <img id="win"   class="door" src="img/open_win.png"></img>
+    </div>
+
+    <p>モンティホール問題</p>
+
+    <form name="form1" class="button" action="">
+       <div>
+	       ドアの数 : <input type="number" name="choices" class="box" min="3" value="3"> 
+	       <input type="button" value="開始" onclick="OnClickButton();">
+       </div>
+    </form>
+
+    <div id="message"></div>
+    <div id="doors"></div>
+
+</body>
+</html>

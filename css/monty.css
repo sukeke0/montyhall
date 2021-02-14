@@ -1,0 +1,10 @@
+.door {
+    position            : relative;
+    padding-left        : 20px;
+    padding-right       : 20px;
+    width               : 400px;
+}
+
+input.box {
+    width : 80px;
+}
